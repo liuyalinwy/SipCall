@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SipCall</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_netreader">NetReader</string>
+    <string name="action_netstim">NetStim</string>
+    <string name="data_path">/SipCall/data/</string>
+    <string name="model_path">/SipCall/model/</string>
+    <string name="model_file">trained.xml</string>
+    <string name="sip_account">Sip Account</string>
+    <string name="username">Username</string>
+    <string name="domain">Domain</string>
+    <string name="password">Password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="hide_button">Hide</string>
+    <string-array name="strMatrix">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+        <item>D</item>
+        <item>C</item>
+    </string-array>
+</resources>

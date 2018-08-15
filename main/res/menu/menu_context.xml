@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu">
+        <item
+            android:id="@+id/action_start"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/action_start"
+            app:showAsAction="always|withText" />
+        <item
+            android:id="@+id/action_stop"
+            android:icon="@android:drawable/ic_media_pause"
+            android:title="@string/action_stop"
+            app:showAsAction="always|withText" />
+        <item
+            android:id="@+id/action_setting"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/action_setting"
+            app:showAsAction="ifRoom|withText" />
+        <item
+            android:id="@+id/action_netreader"
+            android:title="@string/action_netreader"
+            app:showAsAction="ifRoom|withText" />
+        <item
+            android:id="@+id/action_netstim"
+            android:title="@string/action_netstim"
+            app:showAsAction="ifRoom|withText" />
+    </group>
+
+</menu>
